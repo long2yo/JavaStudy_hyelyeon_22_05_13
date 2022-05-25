@@ -29,42 +29,48 @@ public class CarMain {
 		Car c1 = new Car();
 		Car c2 = new Car();
 		Car c3 = new Car();
-		
+
 		c1.company = "KIA";
-		c1.company = "현대자동차";
-		c1.company = "Tesla";
-		
+		c2.company = "현대자동차";
+		c3.company = "Tesla";
+
 		c1.model = "K7";
-		c1.model = "소나타";
-		c1.model = "Model13";
-		
+		c2.model = "소나타";
+		c3.model = "Model3";
+
 		c1.color = "블랙";
-		c1.color = "화이트";
-		c1.color = "레드";
-		
+		c2.color = "화이트";
+		c3.color = "레드";
+
 		c1.showCompanyInfo();
 		c2.showCompanyInfo();
 		c3.showCompanyInfo();
-		
+
 		System.out.println();
-		
+
 		c1.showInfoAll();
 		c2.showInfoAll();
 		c3.showInfoAll();
-		
+
+		System.out.println();
+
 		System.out.println(c1.getCar());
 		System.out.println(c2.getCar());
 		System.out.println(c3.getCar());
-		
+
 		System.out.println();
-		
+
 		c1.setColor("블루");
-		c1.setColor("그레이");
-		c1.setColor("그린");
-		
+		c2.setColor("그레이");
+		c3.setColor("그린");
+
 		c1.showInfoAll();
 		c2.showInfoAll();
 		c3.showInfoAll();
+
+	
+
+
 		
 
 	}
