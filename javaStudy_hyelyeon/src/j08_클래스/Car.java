@@ -22,9 +22,9 @@ public class Car {
 	 * 
 	 */
 	
-	String company = null;
-	String model = null;
-	String color = null;
+	String company;
+	String model;
+	String color;
 	
 	void showCompanyInfo() {
 		System.out.println(company + "회사에서 제조된 차량입니다.");
@@ -37,7 +37,7 @@ public class Car {
 	}
 	
 	String getCar() {
-		return company + "_" + model + color;
+		return company + "_" + model + "-" +color;
 	}
 	
 	void setColor(String color ) {
