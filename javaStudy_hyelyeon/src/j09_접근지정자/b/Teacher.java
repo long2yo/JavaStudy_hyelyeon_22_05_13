@@ -35,6 +35,7 @@ public class Teacher {
 	}
 	
 	//문자를 조합해줄 수 있는 기능 - 반복적인 작업
+	//private을 사용하여 캡슐화 시킴.(이 클래스에서만 사용되도록 캡슐화 함)
 	private String createMassege(String name, String value) {
 		return name + "님: " + value;
 	}
