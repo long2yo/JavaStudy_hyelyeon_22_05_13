@@ -34,8 +34,8 @@ public class UserService {
 	 	System.out.println("비밀번호");
 	 	password = scanner.nextLine();
 
-
-		User user = new User(usercode, email, name, username, password);
+	 	//반환되는 user의 자료형은 User이므로 반환형은 User이다.
+		User user = new User(usercode, email, name, username, password);//new가 붙으면 생성자
 		return user;
 	}
 	
