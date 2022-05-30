@@ -25,13 +25,12 @@ public class Array02 {
 		
 //풀이 
 		
-		System.out.println(0 % 8);
 		
 		int size = 0;
 		
 		for(int i = 0; i < 100; i++) {
-			if(i != 0 && i % 8 == 0) {
-				size++;
+				if(i != 0 && i % 8 == 0) {
+						size++;
 			}
 		}
 
@@ -40,7 +39,7 @@ public class Array02 {
 		for(int i = 0, j = 0; i < 100; i++) {
 			if(i != 0 && i % 8 == 0) {
 				numbers[j] = i;
-				System.out.println(numbers[i]);
+				System.out.println(numbers[j]);
 				j++;
 			}
 		}
